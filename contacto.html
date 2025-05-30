@@ -7,29 +7,32 @@
     <link rel="stylesheet" href="/src/output.css">
 </head>
 <body>
-    <nav class="bg-gray-800 p-4">
+    <nav class="bg-gray-800 py-8">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
-            <div class="flex items-center space-x-2">
-                <span class="text-white text-2xl font-semibold">PuertoGames</span>
-            </div>
-            
-            <div class="hidden md:flex space-x-6">
-                <a href="index.html" class="text-white hover:text-gray-400">Inicio</a>
-                <a href="catalogo.html" class="text-white hover:text-gray-400">Catálogo</a>
-                <a href="contacto.html" class="text-white hover:text-gray-400">Contacto</a>
-            </div>
-        
-            <div class="md:hidden flex items-center">
-                <button id="menuButton" class="text-white focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-            </div>
+        <div class="flex items-center space-x-2">
+            <a href="index.html">
+                <img src="assets/img/logosinbg.png" alt="Logo" class="h-16"> 
+            </a>
+            <span class="text-white text-2xl font-semibold">PuertoGames</span>
         </div>
-    
-        <div id="mobileMenu" class="hidden md:hidden bg-gray-800 p-4 space-y-4">
+        
+        <div class="hidden md:flex space-x-6">
             <a href="index.html" class="text-white hover:text-gray-400">Inicio</a>
+            <a href="catalogo.html" class="text-white hover:text-gray-400">Catálogo</a>
+            <a href="contacto.html" class="text-white hover:text-gray-400">Contacto</a>
+        </div>
+
+        <div class="md:hidden flex items-center">
+            <button id="menuButton" class="text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            </button>
+        </div>
+        </div>
+
+        <div id="mobileMenu" class="hidden md:hidden bg-gray-800 p-4 space-y-4">
+            <a href="#" class="text-white hover:text-gray-400">Inicio</a>
             <a href="catalogo.html" class="text-white hover:text-gray-400">Catálogo</a>
             <a href="contacto.html" class="text-white hover:text-gray-400">Contacto</a>
         </div>
